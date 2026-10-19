@@ -61,6 +61,6 @@ Three worked analyses of the September 2026 release. Each one opens in Google Co
 
 ## More data
 
-The full archive, from 4 August 2026, across 14 Australian bookmakers and New Zealand racing, with price paths, registry identifiers and a closing-line-value scorer, is in the [PuntersEdge API](https://puntersedge.online/api). A free key needs no card.
+The full archive, from 4 August 2026, across the Australian bookmakers ([15 as measured on 19 Oct 2026; live count](https://puntersedge.online/coverage-report.json)) and New Zealand racing, with price paths, registry identifiers and a closing-line-value scorer, is in the [PuntersEdge API](https://puntersedge.online/api). A free key needs no card.
 
 For research and analysis. 18+. Gambling Help Online: 1800 858 858.

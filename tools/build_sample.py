@@ -434,7 +434,7 @@ winners = df[(df.result_status == "final") & (df.finish_position == 1)]
 
 ## More data
 
-This is a monthly sample. The same archive is available through the [PuntersEdge API]({SITE}/api) from 4 August 2026 for 14 Australian bookmakers and New Zealand racing, with full price paths, registry identifiers and a closing-line-value scorer. A free key needs no card. Coverage and freshness are measured on the [data quality page]({SITE}/data-quality).
+This is a monthly sample. The same archive is available through the [PuntersEdge API]({SITE}/api) from 4 August 2026 for the Australian bookmakers listed live on the [coverage report]({SITE}/coverage-report) and New Zealand racing, with full price paths, registry identifiers and a closing-line-value scorer. A free key needs no card. Coverage and freshness are measured on the [data quality page]({SITE}/data-quality).
 
 ## Licence and citation
 
