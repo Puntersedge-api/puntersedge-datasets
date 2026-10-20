@@ -1,19 +1,19 @@
 {
  "dataset": "au-racing-closing-lines",
  "release": "2026-09",
- "generated_at": "2026-10-05T22:48:54Z",
+ "generated_at": "2026-10-20T01:39:02Z",
  "period": {
   "from": "2026-09-01",
   "to": "2026-09-30"
  },
  "first_start_utc": "2026-09-01T01:45:00+00:00",
  "last_start_utc": "2026-09-30T13:29:00+00:00",
- "rows": 233872,
+ "rows": 234230,
  "races": 6274,
  "rows_by_code": {
-  "greyhound": 129802,
-  "horse": 55290,
-  "harness": 48780
+  "greyhound": 129935,
+  "horse": 55420,
+  "harness": 48875
  },
  "races_by_code": {
   "greyhound": 3850,
@@ -21,11 +21,11 @@
   "harness": 1141
  },
  "rows_by_book": {
-  "betright": 46749,
-  "ladbrokes_au": 47985,
-  "pointsbetau": 47464,
-  "tab": 45429,
-  "tabtouch": 46245
+  "betright": 46827,
+  "ladbrokes_au": 48000,
+  "pointsbetau": 47547,
+  "tab": 45531,
+  "tabtouch": 46325
  },
  "bookmakers": [
   "tab",
@@ -35,95 +35,95 @@
   "tabtouch"
  ],
  "close_share_before_filter": {
-  "tab": 0.9173,
-  "ladbrokes_au": 0.9245,
-  "pointsbetau": 0.953,
-  "betright": 0.9379,
-  "tabtouch": 0.9298
+  "tab": 0.9195,
+  "ladbrokes_au": 0.9249,
+  "pointsbetau": 0.9546,
+  "betright": 0.9395,
+  "tabtouch": 0.9314
  },
- "races_with_result_share": 0.9858,
- "rows_with_finish_position": 183317,
+ "races_with_result_share": 0.9971,
+ "rows_with_finish_position": 185752,
  "figures": {
   "best_price_share": {
-   "tab": 0.3963,
-   "ladbrokes_au": 0.1934,
-   "pointsbetau": 0.4987,
-   "betright": 0.4469,
-   "tabtouch": 0.283
+   "tab": 0.3958,
+   "ladbrokes_au": 0.1932,
+   "pointsbetau": 0.4986,
+   "betright": 0.4465,
+   "tabtouch": 0.2827
   },
   "median_market_pct": {
    "ladbrokes_au": {
     "greyhound": {
      "median_pct": 126.1,
-     "races": 3577
+     "races": 3580
     },
     "horse": {
      "median_pct": 121.4,
-     "races": 740
+     "races": 755
     },
     "harness": {
      "median_pct": 126.8,
-     "races": 1038
+     "races": 1040
     }
    },
    "pointsbetau": {
     "greyhound": {
      "median_pct": 122.9,
-     "races": 3449
+     "races": 3474
     },
     "horse": {
      "median_pct": 119.6,
-     "races": 571
+     "races": 592
     },
     "harness": {
      "median_pct": 124.9,
-     "races": 793
+     "races": 810
     }
    },
    "tabtouch": {
     "greyhound": {
-     "median_pct": 123.1,
-     "races": 3103
+     "median_pct": 123.2,
+     "races": 3130
     },
     "harness": {
-     "median_pct": 125.2,
-     "races": 728
+     "median_pct": 125.3,
+     "races": 738
     },
     "horse": {
      "median_pct": 120.4,
-     "races": 451
+     "races": 467
     }
    },
    "betright": {
     "greyhound": {
      "median_pct": 123.1,
-     "races": 2867
+     "races": 2895
     },
     "horse": {
      "median_pct": 119.9,
-     "races": 676
+     "races": 687
     },
     "harness": {
      "median_pct": 123.7,
-     "races": 768
+     "races": 783
     }
    },
    "tab": {
     "greyhound": {
      "median_pct": 123.3,
-     "races": 2777
+     "races": 2808
     },
     "horse": {
      "median_pct": 121.9,
-     "races": 417
+     "races": 439
     },
     "harness": {
      "median_pct": 126.1,
-     "races": 666
+     "races": 687
     }
    }
   },
-  "runners_priced_by_3_or_more_books": 48519
+  "runners_priced_by_3_or_more_books": 48542
  },
  "filters": [
   "country = AU",
@@ -134,20 +134,20 @@
  "license": "CC-BY-4.0",
  "files": {
   "au-racing-closing-lines-2026-09.parquet": {
-   "bytes": 4264426,
-   "sha256": "cb5419056da424c45e863a26d0d3788202f6920f368e674b42ee0134277a0e84",
+   "bytes": 4566491,
+   "sha256": "23b7d7ab287f6da69afcc7a69b9949e227772712067053f927c197b5fd67574c",
    "format": "parquet",
    "mediatype": "application/vnd.apache.parquet"
   },
   "au-racing-closing-lines-2026-09.csv.gz": {
-   "bytes": 4948655,
-   "sha256": "0e6b854aa62902cc0f1b8bc8b0d5061e5beabe5bcaedeca629336fde59cfc8c9",
+   "bytes": 5079145,
+   "sha256": "c07364381341bf7d1f1c6f29fd40fd0b984d87d95507b1ad75c336e575a7ee60",
    "format": "csv",
    "mediatype": "text/csv",
    "compression": "gz"
   }
  },
- "revision": 2,
- "revision_note": "adds five market-consensus columns (consensus_close_prob, consensus_close_price, books_in_consensus_close, consensus_open_price, books_in_consensus_open): the margin-free market probability per runner at the close and at the 60-minute open, computed with the power method over every Australian bookmaker in the archive, not only the five in this file. The archive was also re-reconciled between the two builds: 47 duplicate race records (the same race held twice, under two venue spellings or start times) left the sample and 11 races entered it, 920 rows out and 341 in; finishing positions were filled in on 19,000 rows across 817 races where the first build carried placings only, and 282 rows gained a final result status. No price changed on any row present in both builds. It replaces the files published earlier on 5 October 2026 (UTC); their SHA-256 checksums were db477d827f5df08cfad9ca66184ee2a0b13d1f0b0ef98965e6dbec1183699a06 (parquet) and 789139284a4329d75e3bab2e56d25a2e02832c6241375b2cb6bf412b4ad7d878 (csv.gz).",
- "revision_date": "2026-10-05"
+ "revision": 3,
+ "revision_note": "recomputes the five market-consensus columns with the archive's current method: a bookmaker enters the consensus only when its closing prices cover the race's whole field, and the power method's exponent is at most 1.25, the rest of that bookmaker's margin divided out in proportion. consensus_close_price or books_in_consensus_close differs on 68,950 rows (15,355 runners), the price by more than 5% on 17,360; 18,175 rows carry no close consensus, where fewer than two complete-field bookmakers closed; consensus_open_price differs on 133,028 rows. 366 rows entered the sample and 8 left it. On rows present in both builds finish_position differs on 2,080; result_status differs on 2,512. No price or timing differs. Revision 2 (5 October 2026) added the consensus columns; its SHA-256 checksums were cb5419056da424c45e863a26d0d3788202f6920f368e674b42ee0134277a0e84 (parquet) and 0e6b854aa62902cc0f1b8bc8b0d5061e5beabe5bcaedeca629336fde59cfc8c9 (csv.gz).",
+ "revision_date": "2026-10-20"
 }
