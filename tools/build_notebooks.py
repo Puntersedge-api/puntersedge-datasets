@@ -7,7 +7,7 @@ Writes unexecuted notebooks; execute them with nbconvert afterwards.
 import sys
 import nbformat as nbf
 
-REPO = "Propertyscout001/puntersedge-datasets"
+REPO = "Puntersedge-api/puntersedge-datasets"
 
 
 def colab(name):

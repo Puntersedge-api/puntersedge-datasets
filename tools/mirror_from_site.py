@@ -48,7 +48,7 @@ BOOK_NAMES = {
     "unibet": "Unibet", "betr_au": "Betr", "playup": "NextBet", "betgold": "BetGold",
     "boostbet": "BoostBet", "betdeluxe": "BetDeluxe",
 }
-UA = "puntersedge-datasets-mirror/1.0 (+https://github.com/Propertyscout001/puntersedge-datasets)"
+UA = "puntersedge-datasets-mirror/1.0 (+https://github.com/Puntersedge-api/puntersedge-datasets)"
 
 
 def fetch(url: str, attempts: int = 3) -> bytes:
@@ -103,7 +103,7 @@ def release_notes(summary: dict, sums: dict, release: str) -> str:
         f"300 seconds of the advertised start. {round(summary['races_with_result_share'] * 100)}% of races carry a result.\n\n"
         f"| File | Size | SHA-256 |\n|---|---|---|\n{table}\n\n"
         f"Column reference, caveats and the two measured figures: [releases/{release}/README.md]"
-        f"(https://github.com/Propertyscout001/puntersedge-datasets/blob/main/releases/{release}/README.md). "
+        f"(https://github.com/Puntersedge-api/puntersedge-datasets/blob/main/releases/{release}/README.md). "
         f"Also served at [puntersedge.online/datasets]({SITE}/datasets).\n\n"
         f"Licence: CC BY 4.0. Credit \"PuntersEdge Australian racing closing-line sample (puntersedge.online), {label}\". "
         f"For research and analysis. 18+. Gambling Help Online: 1800 858 858.\n"

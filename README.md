@@ -5,19 +5,19 @@ Free monthly samples of the [PuntersEdge](https://puntersedge.online) Australian
 <!-- releases:start -->
 | Release | Races | Rows | Bookmakers | Files |
 |---|---|---|---|---|
-| [September 2026](releases/2026-09/README.md) | 6,274 | 233,872 | TAB, Ladbrokes, PointsBet, BetRight, TABtouch | [Parquet](https://puntersedge.online/datasets/au-racing-closing-lines/2026-09/au-racing-closing-lines-2026-09.parquet) · [CSV](https://puntersedge.online/datasets/au-racing-closing-lines/2026-09/au-racing-closing-lines-2026-09.csv.gz) |
+| [September 2026](releases/2026-09/README.md) | 6,274 | 234,230 | TAB, Ladbrokes, PointsBet, BetRight, TABtouch | [Parquet](https://puntersedge.online/datasets/au-racing-closing-lines/2026-09/au-racing-closing-lines-2026-09.parquet) · [CSV](https://puntersedge.online/datasets/au-racing-closing-lines/2026-09/au-racing-closing-lines-2026-09.csv.gz) |
 
 Last checked against the site on 2026-10-05.
 <!-- releases:end -->
 
-Each release holds the opening and closing fixed win prices for Australian thoroughbred, harness and greyhound races at a set of bookmakers, one row per race, runner and bookmaker, with the finishing position where one was published. Every closing price was observed within 300 seconds of the advertised start. Each release's two data files and their checksums are also attached to the matching [GitHub release](https://github.com/Propertyscout001/puntersedge-datasets/releases). The page with every release, checksums and the column reference is [puntersedge.online/datasets](https://puntersedge.online/datasets); the machine-readable catalogue is [/datasets.json](https://puntersedge.online/datasets.json).
+Each release holds the opening and closing fixed win prices for Australian thoroughbred, harness and greyhound races at a set of bookmakers, one row per race, runner and bookmaker, with the finishing position where one was published. Every closing price was observed within 300 seconds of the advertised start. Each release's two data files and their checksums are also attached to the matching [GitHub release](https://github.com/Puntersedge-api/puntersedge-datasets/releases). The page with every release, checksums and the column reference is [puntersedge.online/datasets](https://puntersedge.online/datasets); the machine-readable catalogue is [/datasets.json](https://puntersedge.online/datasets.json).
 
 ## Load a release
 
 With the [Python package](python/README.md), which checks each file against the SHA-256 the site publishes and keeps a local copy:
 
 ```
-pip install "puntersedge-datasets @ git+https://github.com/Propertyscout001/puntersedge-datasets#subdirectory=python"
+pip install "puntersedge-datasets @ git+https://github.com/Puntersedge-api/puntersedge-datasets#subdirectory=python"
 ```
 
 ```python
@@ -44,9 +44,9 @@ Three worked analyses of the September 2026 release. Each one opens in Google Co
 
 | Notebook | What it answers | |
 |---|---|---|
-| [Which bookmaker is sharpest?](notebooks/01_which_bookmaker_is_sharpest.ipynb) | Who has the best price most often, by price range; how far each bookmaker sits from the typical price; market percentage; whose prices best predict winners. The same method as the daily [bookmaker report](https://puntersedge.online/bookmaker-report). | [Open in Colab](https://colab.research.google.com/github/Propertyscout001/puntersedge-datasets/blob/main/notebooks/01_which_bookmaker_is_sharpest.ipynb) |
-| [Measure your closing-line value](notebooks/02_measure_your_closing_line_value.ipynb) | Checks that realised return tracks CLV, shows why CLV needs far fewer bets than profit to measure an edge, and scores your own bet log. | [Open in Colab](https://colab.research.google.com/github/Propertyscout001/puntersedge-datasets/blob/main/notebooks/02_measure_your_closing_line_value.ipynb) |
-| [Does late money win?](notebooks/03_does_late_money_win.ipynb) | Whether runners that firm in the last hour win more often than their opening price said, and whether the closing price already knows. | [Open in Colab](https://colab.research.google.com/github/Propertyscout001/puntersedge-datasets/blob/main/notebooks/03_does_late_money_win.ipynb) |
+| [Which bookmaker is sharpest?](notebooks/01_which_bookmaker_is_sharpest.ipynb) | Who has the best price most often, by price range; how far each bookmaker sits from the typical price; market percentage; whose prices best predict winners. The same method as the daily [bookmaker report](https://puntersedge.online/bookmaker-report). | [Open in Colab](https://colab.research.google.com/github/Puntersedge-api/puntersedge-datasets/blob/main/notebooks/01_which_bookmaker_is_sharpest.ipynb) |
+| [Measure your closing-line value](notebooks/02_measure_your_closing_line_value.ipynb) | Checks that realised return tracks CLV, shows why CLV needs far fewer bets than profit to measure an edge, and scores your own bet log. | [Open in Colab](https://colab.research.google.com/github/Puntersedge-api/puntersedge-datasets/blob/main/notebooks/02_measure_your_closing_line_value.ipynb) |
+| [Does late money win?](notebooks/03_does_late_money_win.ipynb) | Whether runners that firm in the last hour win more often than their opening price said, and whether the closing price already knows. | [Open in Colab](https://colab.research.google.com/github/Puntersedge-api/puntersedge-datasets/blob/main/notebooks/03_does_late_money_win.ipynb) |
 
 [`tools/build_notebooks.py`](tools/build_notebooks.py) holds every cell; edit it there and re-run the notebooks.
 
